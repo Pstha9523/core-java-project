@@ -5,6 +5,7 @@ public class Notebook {
     //States
 
     /*
+    Color
     Size
     Number of pages
     Has dividers
