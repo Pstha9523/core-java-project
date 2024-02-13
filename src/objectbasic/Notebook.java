@@ -3,6 +3,7 @@ package objectbasic;
 public class Notebook {
 
     //States
+
     /*
     Size
     Number of pages
@@ -12,6 +13,7 @@ public class Notebook {
     Has Spiral
     Can refill pages
     Brand Name
+    Is Hardcover
      */
 
     //Constructors

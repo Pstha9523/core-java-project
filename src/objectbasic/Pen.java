@@ -2,6 +2,7 @@ package objectbasic;
 
 public class Pen {
     //States
+
     /*
     Brand Name
     Price
@@ -13,4 +14,8 @@ public class Pen {
     Size
     Is Refillable
      */
+
+    //Constructors
+
+    //Behaviour (Method / Function)
 }
