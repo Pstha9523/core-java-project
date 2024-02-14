@@ -7,10 +7,11 @@ public class Pen {
     Brand Name
     Price
     Color
-    Is it fine, medium, or bold stoke
-    Is gel or ballpoint
-    Is plastic or metal body
-    Is click-top or cap-pen
+    Type of stroke weight
+    Type of pen (gel pen, ballpoint, roller ball)
+    Type of Body (metal or plastic)
+    Has click-top
+    Has Cap pen
     Size
     Is Refillable
      */
