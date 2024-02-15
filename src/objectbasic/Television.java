@@ -8,16 +8,16 @@ public class Television {
     Price
     Size
     Screen resolution
-    Has LED
-    Has LCD
-    Has smart TV Function
+    Screen type
+    Is smart TV
     Has bluetooth
     Has HDMI
     Has Displayport
     Can mount
     Is curved
-
-     */
+    Has AI support
+    Has stand
+    */
 
     //Constructors
 

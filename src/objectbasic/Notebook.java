@@ -10,12 +10,16 @@ public class Notebook {
     Number of pages
     Has dividers
     Has paper protector
-    Has lines
+    Has grid
     Has Spiral
     Can refill pages
     Brand Name
     Is Hardcover
-     */
+    Price
+    Has calendar
+    Language
+    Has bookmark strip
+    */
 
     //Constructors
 

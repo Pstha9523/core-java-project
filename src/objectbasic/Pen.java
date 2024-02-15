@@ -9,11 +9,12 @@ public class Pen {
     Color
     Type of stroke weight
     Type of pen (gel pen, ballpoint, roller ball)
-    Type of Body (metal or plastic)
+    Type of body (metal or plastic)
     Has click-top
-    Has Cap pen
     Size
-    Is Refillable
+    Is refillable
+    Is waterproof
+    Weight
      */
 
     //Constructors
