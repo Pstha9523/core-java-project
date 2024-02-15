@@ -4,19 +4,19 @@ public class Television {
     //States
 
     /*
-    Brand Name
-    Price
-    Size
-    Screen resolution
-    Screen type
-    Is smart TV
-    Has bluetooth
-    Has HDMI
-    Has Displayport
-    Can mount
-    Is curved
-    Has AI support
-    Has stand
+    Brand Name - String
+    Price - float /double
+    Size - float / double
+    Screen resolution - int
+    Screen type - String
+    Is smart TV - boolean
+    Has bluetooth - boolean
+    Has HDMI - boolean
+    Has Displayport - boolean
+    Can mount - boolean
+    Is curved - boolean
+    Has AI support - boolean
+    Has stand - boolean
     */
 
     //Constructors

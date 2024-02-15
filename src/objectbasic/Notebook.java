@@ -5,20 +5,19 @@ public class Notebook {
     //States
 
     /*
-    Color
-    Size
-    Number of pages
-    Has dividers
-    Has paper protector
-    Has grid
-    Has Spiral
-    Can refill pages
-    Brand Name
-    Is Hardcover
-    Price
-    Has calendar
-    Language
-    Has bookmark strip
+    Color - String
+    Size - float / double
+    Number of pages - int
+    Has dividers - boolean
+    Has paper protector - boolean
+    Has grid - boolean
+    Has Spiral - boolean
+    Can refill pages - boolean
+    Brand Name - String
+    Is Hardcover - boolean
+    Price - float
+    Has calendar - boolean
+    Has bookmark - boolean
     */
 
     //Constructors
