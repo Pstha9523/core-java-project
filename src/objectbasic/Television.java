@@ -5,8 +5,8 @@ public class Television {
 
     /*
     Brand Name - String
-    Price - float /double
-    Size - float / double
+    Price - float
+    Size - float
     Screen resolution - int
     Screen type - String
     Is smart TV - boolean

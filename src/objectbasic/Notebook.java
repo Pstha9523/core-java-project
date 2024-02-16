@@ -6,7 +6,7 @@ public class Notebook {
 
     /*
     Color - String
-    Size - float / double
+    Size - float
     Number of pages - int
     Has dividers - boolean
     Has paper protector - boolean

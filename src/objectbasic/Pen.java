@@ -5,16 +5,16 @@ public class Pen {
 
     /*
     Brand Name - String
-    Price - float / double
+    Price - float
     Color - String
-    Type of stroke weight - double /float
+    Type of stroke weight - float
     Type of pen (gel pen, ballpoint, roller ball) - String
     Type of body (metal or plastic) - String
     Has click-top - boolean
-    Size - int
+    Size - float
     Is refillable - boolean
     Is waterproof - boolean
-    Weight - double int
+    Weight - double
      */
 
     //Constructors
