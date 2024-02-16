@@ -10,6 +10,7 @@ public class Notebook {
 
      //int and long is typically used when you need to do math functions.
      // String can also store numbers if it does not need to do any math functions.
+test
 
 
      */
