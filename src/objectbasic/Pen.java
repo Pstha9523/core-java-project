@@ -3,6 +3,7 @@ package objectbasic;
 public class Pen {
     //States
 
+
     /*
     Brand Name - String
     Price - float
@@ -14,7 +15,7 @@ public class Pen {
     Size - float
     Is refillable - boolean
     Is waterproof - boolean
-    Weight - double
+    Weight - float
      */
 
     //Constructors

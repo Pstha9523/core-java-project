@@ -3,6 +3,17 @@ package objectbasic;
 public class Notebook {
 
     //States
+    /*
+    FYI
+     // float is used when there's less than 6-7 decimal points.
+     // double is used when there's 15 or more decimal points.
+
+     //int and long is typically used when you need to do math functions.
+     // String can also store numbers if it does not need to do any math functions.
+
+     */
+
+
 
     /*
     Color - String
