@@ -32,8 +32,32 @@ public class Television {
     boolean aiSupport;
     boolean stand;
 
+    @Override
+    public String toString() {
+        return "Television{" +
+                "brandName='" + brandName + '\'' +
+                ", price=" + price +
+                ", size=" + size +
+                ", screenRes=" + screenRes +
+                ", screenType='" + screenType + '\'' +
+                ", smartTV=" + smartTV +
+                ", bluetooth=" + bluetooth +
+                ", hdmi=" + hdmi +
+                ", displayport=" + displayport +
+                ", mountable=" + mountable +
+                ", curved=" + curved +
+                ", aiSupport=" + aiSupport +
+                ", stand=" + stand +
+                '}';
+    }
+    public static void main(String[]args){
+        Television topSell = new Television();
+        topSell.brandName = "Samsung";
+        System.out.println(topSell);
 
-    //Constructors
+
+    }
+//Constructors
 
     //Behaviour (Method / Function)
 }

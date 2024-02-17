@@ -19,6 +19,25 @@ public class Notebook {
     Has bookmark - boolean
     */
 
+    @Override
+    public String toString() {
+        return "Notebook{" +
+                "color='" + color + '\'' +
+                ", size=" + size +
+                ", numPages=" + numPages +
+                ", divider=" + divider +
+                ", paperProtector=" + paperProtector +
+                ", grid=" + grid +
+                ", spiral=" + spiral +
+                ", pageRefillable=" + pageRefillable +
+                ", brandName='" + brandName + '\'' +
+                ", hardCover=" + hardCover +
+                ", price=" + price +
+                ", calendar=" + calendar +
+                ", bookmark=" + bookmark +
+                '}';
+    }
+
     String color;
     float size;
     int numPages;
@@ -33,7 +52,13 @@ public class Notebook {
     boolean calendar;
     boolean bookmark;
 
+public static void main(String[]args){
+    Notebook colorful = new Notebook();
+    colorful.color = "pink";
+    System.out.println(colorful);
 
+
+}
 
 
 

@@ -27,7 +27,29 @@ public class Pen {
     boolean inkRefillable;
     boolean inkWaterproof;
     double weight;
+    @Override
+    public String toString() {
+        return "Pen{" +
+                "brandName='" + brandName + '\'' +
+                ", price=" + price +
+                ", color='" + color + '\'' +
+                ", strokeWeight='" + strokeWeight + '\'' +
+                ", penType='" + penType + '\'' +
+                ", penBodyType='" + penBodyType + '\'' +
+                ", clickTop=" + clickTop +
+                ", size=" + size +
+                ", inkRefillable=" + inkRefillable +
+                ", inkWaterproof=" + inkWaterproof +
+                ", weight=" + weight +
+                '}';
+    }
+    public static void main(String[]args){
+        Pen topSeller = new Pen();
+        topSeller.brandName = "Pilot";
+        System.out.println(topSeller);
 
+
+    }
 
     //Constructors
 
