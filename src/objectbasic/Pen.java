@@ -22,10 +22,10 @@ public class Pen {
     String strokeWeight;
     String penType;
     String penBodyType;
-    String clickTop;
+    boolean clickTop;
     float size;
-    String inkRefillable;
-    String inkWaterproof;
+    boolean inkRefillable;
+    boolean inkWaterproof;
     double weight;
 
 

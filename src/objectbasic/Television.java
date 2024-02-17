@@ -23,14 +23,14 @@ public class Television {
     double size;
     int screenRes;
     String screenType;
-    String smartTV;
-    String bluetooth;
-    String hdmi;
-    String displayport;
-    String mountable;
-    String curved;
-    String aiSupport;
-    String stand;
+    boolean smartTV;
+    boolean bluetooth;
+    boolean hdmi;
+    boolean displayport;
+    boolean mountable;
+    boolean curved;
+    boolean aiSupport;
+    boolean stand;
 
 
     //Constructors

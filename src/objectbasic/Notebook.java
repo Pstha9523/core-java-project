@@ -22,16 +22,16 @@ public class Notebook {
     String color;
     float size;
     int numPages;
-    String divider;
-    String paperProtector;
-    String grid;
-    String spiral;
-    String pageRefillable;
+    boolean divider;
+    boolean paperProtector;
+    boolean grid;
+    boolean spiral;
+    boolean pageRefillable;
     String brandName;
-    String hardCover;
+    boolean hardCover;
     double price;
-    String calendar;
-    String bookmark;
+    boolean calendar;
+    boolean bookmark;
 
 
 
