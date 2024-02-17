@@ -153,7 +153,5 @@ public class HimalayanTimesApplication {
         health.createdAt = "2024-02-16";
         health.updatedAt = "2024-02-16";
         System.out.println(health);
-
-
     }
 }

@@ -11,7 +11,6 @@ public class Category {
         Created At - String
         Updated At - String
     */
-
         int categoryId;
         String categoryName;
         boolean isDisabled;
@@ -33,7 +32,6 @@ public class Category {
                     '}';
         }
     }
-
     //Constructors
     //Methods
 
