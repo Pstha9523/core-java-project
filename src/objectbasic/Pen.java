@@ -48,7 +48,6 @@ public class Pen {
         topSeller.brandName = "Pilot";
         System.out.println(topSeller);
 
-
     }
 
     //Constructors

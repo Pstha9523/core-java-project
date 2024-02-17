@@ -55,7 +55,6 @@ public class Television {
         topSell.brandName = "Samsung";
         System.out.println(topSell);
 
-
     }
 //Constructors
 

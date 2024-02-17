@@ -57,7 +57,6 @@ public static void main(String[]args){
     colorful.color = "pink";
     System.out.println(colorful);
 
-
 }
 
 
