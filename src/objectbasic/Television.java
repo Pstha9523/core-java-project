@@ -20,7 +20,7 @@ public class Television {
     */
     String brandName;
     double price;
-    float size;
+    double size;
     int screenRes;
     String screenType;
     String smartTV;
