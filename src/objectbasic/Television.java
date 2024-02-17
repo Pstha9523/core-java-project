@@ -18,6 +18,20 @@ public class Television {
     Has AI support - boolean
     Has stand - boolean
     */
+    String brandName;
+    double price;
+    float size;
+    int screenRes;
+    String screenType;
+    String smartTV;
+    String bluetooth;
+    String hdmi;
+    String displayport;
+    String mountable;
+    String curved;
+    String aiSupport;
+    String stand;
+
 
     //Constructors
 

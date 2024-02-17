@@ -3,7 +3,6 @@ package objectbasic;
 public class Notebook {
 
     //States
-
     /*
     Color - String
     Size - float
@@ -19,6 +18,24 @@ public class Notebook {
     Has calendar - boolean
     Has bookmark - boolean
     */
+
+    String color;
+    float size;
+    int numPages;
+    String divider;
+    String paperProtector;
+    String grid;
+    String spiral;
+    String pageRefillable;
+    String brandName;
+    String hardCover;
+    double price;
+    String calendar;
+    String bookmark;
+
+
+
+
 
     //Constructors
 

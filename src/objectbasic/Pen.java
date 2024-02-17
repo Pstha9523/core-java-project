@@ -16,6 +16,18 @@ public class Pen {
     Is waterproof - boolean
     Weight - float
      */
+    String brandName;
+    double price;
+    String color;
+    String strokeWeight;
+    String penType;
+    String penBodyType;
+    String clickTop;
+    float size;
+    String inkRefillable;
+    String inkWaterproof;
+    double weight;
+
 
     //Constructors
 
