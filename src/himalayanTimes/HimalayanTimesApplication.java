@@ -2,6 +2,7 @@ package himalayanTimes;
 public class HimalayanTimesApplication {
 
     public static void main (String[]args){
+
         Category home = new Category();
         home.categoryId = 1;
         home.categoryName = "Home";
