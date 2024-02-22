@@ -22,7 +22,6 @@ public class Category {
     public int getCategoryId() {
         return categoryId;
     }
-
     public void setCategoryId(int categoryId) {
         this.categoryId = categoryId;
     }
@@ -74,7 +73,6 @@ public class Category {
     public void setUpdatedAt(String updatedAt) {
         this.updatedAt = updatedAt;
     }
-
 
     @Override
         public String toString() {
