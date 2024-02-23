@@ -12,6 +12,7 @@ public class Category {
         Created At - String
         Updated At - String
     */
+
         private int categoryId;
         private String categoryName;
         private boolean isDisabled;
