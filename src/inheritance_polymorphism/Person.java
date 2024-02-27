@@ -76,4 +76,17 @@ public abstract class Person {
         this.gender = gender;
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", id='" + id + '\'' +
+                ", position='" + position + '\'' +
+                ", ssn=" + ssn +
+                ", salary=" + salary +
+                ", joiningDate=" + joiningDate +
+                ", gender='" + gender + '\'' +
+                '}';
+    }
 }
