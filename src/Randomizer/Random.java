@@ -51,7 +51,6 @@ public class Random {
         }
         userInput.close();
 
-
-
     }
 }
+
