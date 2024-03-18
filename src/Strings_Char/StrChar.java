@@ -10,6 +10,7 @@ public class StrChar {
         System.out.println("Second policy: " + policyNum[1]);
         System.out.println("Third policy: " + policyNum[2]);
 
+        }
+
     }
 
-}

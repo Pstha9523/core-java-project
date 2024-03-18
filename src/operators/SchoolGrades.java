@@ -56,5 +56,6 @@ public class SchoolGrades {
         }else {
             System.out.printf("%n" + "Fail");
         }
+
     }
 }
