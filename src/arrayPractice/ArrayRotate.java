@@ -1,43 +1,41 @@
 package arrayPractice;
 
 import java.util.Arrays;
+import java.util.Enumeration;
 
 
 public class ArrayRotate {
 
     //Create an array of any length and rotate its value by 1 unit. Use a different function to rotate the arrays.
-    static String [] letters = {"P", "S", "C"};
-
-
     public static void main(String[] args) {
-        System.out.println("\n" + "Before rotation");
-        for (String letter : letters) {
-            System.out.println(letter);
-        }
-        System.out.println("\n" + "After rotate");
+        int [] numbers = {1, 2, 3};
+        int r = 1;
 
-        rotateFunction();
+        rotateFunction(numbers, r);
+
+        System.out.println("Rotated Array:");
+        for(int num : numbers){
+            System.out.println(num);
+
+        }
 
     }
 
-    public static void rotateFunction() {
-        String [] rotate = Arrays.copyOf(letters, letters.length);
-
-        for (String s : rotate) {
-
-            if (s.equals(rotate[0])) {
-                System.out.println(rotate[1]);
-            } else if (s.equals(rotate[1])) {
-                System.out.println(rotate[2]);
-            } else if (s.equals(rotate[2])) {
-                System.out.println(rotate[0]);
-            }
-
+    public static void rotateFunction(int [] numbers, int r) {
+        int n = numbers.length;
+        int [] copyNumbers = new int[n];
+        for(int i = 0; i < n; i++){
+            copyNumbers[(i + r) % n] = numbers[i];
         }
+        System.arraycopy(copyNumbers, 0, numbers, 0, n);
+
+
 
     }
 
 }
+
+
 
 
 
