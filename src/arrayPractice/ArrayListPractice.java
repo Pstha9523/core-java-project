@@ -1,7 +1,7 @@
 package arrayPractice;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
+import java.util.stream.Collectors;
 
 
 public class ArrayListPractice {
@@ -12,7 +12,7 @@ public class ArrayListPractice {
 
 
     public static void main(String[] args) {
-        //Create 2 types of array list one with the class give by java and another with tha custom class and try following things :
+/*        //Create 2 types of array list one with the class give by java and another with tha custom class and try following things :
         ArrayList <String> clothes = new ArrayList<>();
         ArrayList <Integer> quantity = new ArrayList<>();
 
@@ -78,7 +78,42 @@ public class ArrayListPractice {
         System.out.println(clothes);
         clothes.clear();
         System.out.println(clothes);
-        System.out.println(clothes.size());
+        System.out.println(clothes.size());*/
+
+
+        //Product List Assignment
+        //Create a class called Product which has the states : id, name, price .
+        //Create the list of products.
+        // Sort this list on the basis of name /  price.
+
+        ArrayList <Product> products = new ArrayList<>();
+
+        products.add(new Product(1, "Iphone 14", 849.99));
+        products.add(new Product(2, "Iphone 15", 1200.99));
+        products.add(new Product(3, "Macbook Pro", 2200.00));
+        products.add(new Product(4, "Macbook Air", 1900.50));
+        products.add(new Product(5, "Ipad 15 ", 1800.99));
+        System.out.println(products);
+
+        // Sort this list on the basis of name /  price.
+        Comparator<Product> byName = (b1, b2) -> b1.getName().compareTo(b2.getName());
+        products.sort(byName);
+        System.out.println("******* Name sort ****** " + '\n' + products);
+
+
+
+        Comparator<Product> byPrice = Comparator.comparingDouble(Product::getPrice);
+        products.sort(byPrice);
+        System.out.println("****** Price sort ****** " + '\n' + products);
+
+
+
+
+
+
+
+
+
 
 
 
