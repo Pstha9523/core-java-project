@@ -100,6 +100,10 @@ public class ArrayListPractice {
         products.sort(byName);
         System.out.println("******* Name sort ****** " + '\n' + products);
 
+        Comparator<Product> byName1 = Comparator.comparing(Product::getName);
+        products.sort(byName1);
+        System.out.println("******* Diff way of Name sort ******" + '\n' + products);
+
 
 
         Comparator<Product> byPrice = Comparator.comparingDouble(Product::getPrice);
