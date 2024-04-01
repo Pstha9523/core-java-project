@@ -1,6 +1,6 @@
 package inheritance_polymorphism;
 
-public class Director extends Person {
+public final class Director extends Manager {
     private double bonus;
     private float sharePercentage;
     public double getBonus() {

@@ -2,7 +2,7 @@ package inheritance_polymorphism;
 
 import java.util.List;
 
-public class Manager extends Person{
+public sealed class Manager extends Employee permits Director{
     private double bonus;
     private String department;
     private List <Employee> tree;
