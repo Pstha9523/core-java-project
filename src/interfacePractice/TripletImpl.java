@@ -1,6 +1,6 @@
 package interfacePractice;
 
-public class GenericTriplet implements Triplet {
+public class TripletImpl implements Triplet {
 
 
     @Override
