@@ -1,6 +1,7 @@
 package generic;
 
-public class NormalCalculator<T> implements Action<T>{
+public class NormalCalculator<T extends Number> implements Action<T>{
+    //When you do T extends Number then you are bounding T to just Numbers class.
 
     @Override
     public void add(T a, T b) {

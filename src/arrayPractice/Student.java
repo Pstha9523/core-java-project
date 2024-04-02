@@ -2,7 +2,7 @@ package arrayPractice;
 
 import java.util.Objects;
 
-public class Student {
+public class Student implements Comparable<Student> {
 
     private String name;
     private int idNum;
@@ -31,5 +31,10 @@ public class Student {
                 "name='" + name + '\'' +
                 ", idNum=" + idNum +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        return 0;
     }
 }
