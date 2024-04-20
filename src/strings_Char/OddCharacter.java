@@ -1,5 +1,4 @@
-package Strings_Char;
-import java.util.Scanner;
+package strings_Char;
 
 public class OddCharacter {
 

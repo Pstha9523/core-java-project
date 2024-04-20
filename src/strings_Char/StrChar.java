@@ -1,4 +1,4 @@
-package Strings_Char;
+package strings_Char;
 
 public class StrChar {
     public static void main(String[] args) {

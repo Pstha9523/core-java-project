@@ -1,4 +1,4 @@
-package Randomizer;
+package randomizer;
 
 import java.util.Scanner;
 

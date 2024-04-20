@@ -1,4 +1,4 @@
-package Modulus;
+package modulus;
 
 public class PrimeFind {
 
