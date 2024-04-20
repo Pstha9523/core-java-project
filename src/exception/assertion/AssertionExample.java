@@ -6,6 +6,7 @@ public class AssertionExample {
     public static void main(String[] args) {
 
         int number = positiveInt();
+
         /*if( number > 0){
             // do something
         } else {
@@ -16,11 +17,11 @@ public class AssertionExample {
 
         assert number > 0 : "The number is negative";
         //this is just for testing.
-
-
+        //you have to enable assertion by edit configuration and add VM  -ea (enable assertion).
+        //you can disable the assertion as well by putting -da in the VM section.
     }
 
     public static int positiveInt() {
-        return  5;
+        return  -5;
     }
 }
